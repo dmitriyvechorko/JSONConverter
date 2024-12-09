@@ -1,4 +1,6 @@
 import os
+
+from src.Config import Config
 from src.concept_mapper import ConceptMapper
 from src.file_handler import FileHandler
 from src.parser import SCSConverter
@@ -33,8 +35,8 @@ class Parser:
 
 if __name__ == "__main__":
     # Указываем директории непосредственно в коде
-    input_dir = "D:/data2sc-parser/input_json"  # Путь к входной директории с JSON файлами
-output_dir = "D:/data2sc-parser/output_scs"  # Путь к выходной директории для SCS файлов
+    input_dir = Config.INPUT_DIR  # Путь к входной директории с JSON файлами
+output_dir = Config.OUTPUT_DIR  # Путь к выходной директории для SCS файлов
 
 # Проверка существования выходной директории, если нет - создать
 if not os.path.exists(output_dir):
