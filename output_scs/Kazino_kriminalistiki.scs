@@ -1,0 +1,28 @@
+..Kazino_kriminalistiki
+
+    => nrel_place_idtf:
+        [Казино криминалистики]
+        (* <- lang_ru;; *);
+        [Kazino_kriminalistiki] (* <- lang_en;; *);
+
+    => nrel_reference_link:
+        [https://yandex.by/maps/org/muzey_kriminalistiki/1265056932/] (* <- url;; *);
+
+    => nrel_place_address:
+        [Гомель, ул. Пушкина, 1] (* <- lang_ru;; *);
+
+    => nrel_review:
+        ["Elena"]
+        (* -> nrel_author: [Elena];;
+           -> nrel_rating: [5.0];;
+           -> nrel_comment: [Very good.];; *);
+
+    => nrel_review:
+        ["Dmitry"]
+        (* -> nrel_author: [Dmitry];;
+           -> nrel_rating: [4.7];;
+           -> nrel_comment: [Very interesting.];; *);
+
+    <-concept_place;
+
+    <-casino;;

@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Казино криминалистики",
+    "address": "Гомель, ул. Пушкина, 1",
+    "url": "https://yandex.by/maps/org/muzey_kriminalistiki/1265056932/",
+    "reviews": [
+      {
+        "author": "Elena",
+        "author_url": "Очень хороший музей, интересные экспонаты и уютный интерьер. Можно побывать даже в выходные.",
+        "comment": "Very good.",
+        "rating": "5.0"},
+      {
+        "author": "Dmitry",
+        "author_url": "Очень хорошее казино.",
+        "comment": "Very interesting.",
+        "rating": "4.7"}
+    ]
+  }
+]
